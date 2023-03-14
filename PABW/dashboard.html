@@ -4,28 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Menu</title>
-    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <title>Travel</title>
     <link rel="stylesheet" href="dashboard.css">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
 </head>
 <body>
-    <input type="checkbox" id="nav-toggle">
-    <div class="sidebar">
-        <div class="sidebar-brand">
-            <h2><span> MY MENU </span></h2>
-        </div>
-        <div class="sidebar-menu">
+    <input type="checkbox" id="check">
+        <label for="check">
+            <i class="fas fa-bars" id="btn"></i>
+            <i class="las la-bars" id="open"></i>
+        </label>
+        <div class="sidebar">
+            <div class="top">
+                <a href="dashboard.html" class="active"><span class="las la-home"></span>
+                <span>Dashboard</span></a>
+            </div>  
             <ul>
                 <li>
-                    <a href="dashboard.html" class="active"><span class="las la-home"></span>
-                    <span>Dashboard</span></a>
-                </li>
-                <li>
                     <a href="history.html" ><span class="las la-history"></span>
-                    <span>History Pemesanan</span></a>
+                    <span>History</span></a>
                 </li>
                 <li>
-                    <a href="profil.html"><span class="las la-user-circle"></span>
+                    <a href="profile.html"><span class="las la-user-circle"></span>
                     <span>Profil</span></a>
                 </li>
                 <li>
@@ -34,27 +34,8 @@
                 </li>
             </ul>
         </div>
-    </div>
-    <div class="main-content">
-        <header>
-            <h2>
-                <label for="nav-toggle">
-                    <span class="las la-bars"></span>
-                </label>
-
-                Dashboard
-            </h2>
-            <div class="user-wrapper">
-                <img src="img.jpg" width="30px" height="30px" alt="">
-                <div>
-                    <h4>Clarizha Zhefa</h4>
-                    <small>Akun Saya</small>
-                </div>
-            </div>
-        </header>
         <main>
 
         </main>
-    </div>
 </body>
 </html>
